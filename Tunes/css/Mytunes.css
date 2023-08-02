@@ -1,0 +1,371 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: #252529;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    position: sticky; 
+    top: 0px;
+    font-family: sans-serif;
+    background-color: #333333;
+    /* padding-left: 10px; */
+}
+nav>section{
+    /* margin-left: 20px; */
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding-top: 14px;
+    padding-left: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #eeeeee;
+}
+nav>section:hover{
+    height: 33px;
+    width: 100px;
+    background-color: #5f5c5c;
+}
+
+#page1{
+    height: 100vh;
+    background-image: url(../../img/mytunes1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#page1>h1{
+    color: #ffffff;
+    display: inline;
+    font-size: 62px;
+    font-family: sans-serif;
+    position: relative;
+    top: 200px;
+    left: 600px;
+}
+#page1>h2{
+    color: #ffffff;
+    display: inline;
+    font-size: 31px;
+    font-family: sans-serif;
+    position: relative;
+    top: 250px;
+    left: 330px;
+}
+#page1>p:nth-of-type(1){
+    color: #ffffff;
+    display: inline;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    top: 300px;
+    left: 110px;
+}
+#page1>p:nth-of-type(2){
+    color: #ffffff;
+    display: inline;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    top: 312px;
+    left: 390px;
+}
+
+#page2{
+    height: 160vh;
+}
+#page2>h2:nth-child(1){
+    color: #ffffff;
+    display: inline;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+    left: 650px;
+    top: 40px;
+}
+#page2>h2>span{
+    margin-left: 20px;
+}
+#page2>h2:nth-of-type(2){
+    color: #ffffff;
+    display: inline;
+    font-size: 32px;
+    font-family: sans-serif;
+    position: relative;
+    left: 510px;
+    top: 90px;
+    text-align: center;
+}
+#page2>p:nth-of-type(1){ 
+    margin-right: 200px;
+    color: #ffffff;
+    display: block;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    left: 110px;
+    top: 150px;
+    text-align: center;
+} 
+#page2>p:nth-of-type(2){ 
+    margin-right: 200px;
+    color: #ffffff;
+    display: block;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    left: 110px;
+    top: 150px;
+    text-align: center;
+} 
+#page2>p:nth-of-type(3){ 
+    margin-right: 200px;
+    color: #ffffff;
+    display: block;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    left: 110px;
+    top: 150px;
+    text-align: center;
+} 
+#page2>a>button{
+    background-color: #b90415;
+    border: none;
+    font-size: 16px;
+    padding: 16px;
+    color: #ffffff;
+    position: relative;
+    left: 660px;
+    top: 160px;
+}
+#page2>p:nth-of-type(4){ 
+    margin-right: 200px;
+    color: #f4f4f4;
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+    left: 110px;
+    top: 180px;
+    text-align: center;
+} 
+#page2>img{
+    position: relative;
+    top: 200px;
+    width: 1150px;
+    height: 650px;
+    left: 150px;
+}
+
+#page3{
+    background-color: #ffffff;
+    height: 190vh;
+}
+#page3>h3{
+    color: #333333;
+    font-size: 32px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+#page3>p:nth-of-type(1){
+    margin-top: 80px;
+}
+#page3>p{
+
+    color: #333333;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+#page3>a>button{
+    background-color: #103063;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    position: relative;
+    top: 60px;
+    left: 660px;
+}
+#page3>img{
+    position: relative;
+    top: 90px;
+    left: 160px;
+}
+
+#page4{
+    height: 75vh;
+    background-image: url(../../img/mytunes4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#page4>h3{
+    color: #ffffff;
+    font-size: 31px;
+    font-family: sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 185px;
+    left: 350px;
+}
+#page4>p{
+    color: #ffffff;
+    font-size: 19.8px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    top: 290px;   
+}
+
+#page5{
+    height: 65vh;
+    background-color: white;
+    position: relative;
+}
+#page5>img{
+    display: inline-block;
+    height: 400px;
+    width: 570px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+#page5>h2{
+    color: #333333;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 720px;
+}
+#page5>p{
+    color: #333333;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#page5>p:nth-of-type(1){
+    position: absolute;
+    top: 120px;
+    left:720px;
+}
+#page5>p:nth-of-type(2){
+    position: absolute;
+    top: 150px;
+    left:720px;
+}
+#page5>p:nth-of-type(3){
+    position: absolute;
+    top: 175px;
+    left:720px;
+}
+#page5>p:nth-of-type(4){
+    position: absolute;
+    top: 200px;
+    left:720px;
+}
+#page5>p:nth-of-type(5){
+    position: absolute;
+    top: 240px;
+    left:720px;
+}
+#page5>p:nth-of-type(5)::before{
+    content: "";
+    border: 1px solid #5f5c5c;
+    width: 600px;
+    position: absolute;
+    /* left: 720px;*/
+    top: 40px; 
+}
+#page5>a>span{
+    color: #103063;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 310px;
+    left: 720px;
+}
+
+#foot{
+    height: 36vh;
+    position: relative;
+    text-align: center;
+}
+#foot a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 14px;
+}
+#foot>section{
+    display: inline-block;
+    width: 250px;
+    /* border: 1px solid wheat; */
+    margin-left: 35px;
+}
+#foot>section>ul:nth-child(1){
+    margin-top: 45px;
+    color: #ffffff;
+    font-size: 17.2px;
+    font-family: sans-serif;
+    text-align: left;
+    /* position: relative; */
+}
+#foot>section>ul:nth-of-type(2){
+    margin-top: 30px;
+    color: #cccccc;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 20px;
+    line-height: 25px;
+}
+#foot>section:nth-child(1)>ul:nth-child(1)::before{
+    content: "";
+    border: 1px solid #333333;
+    width: 200px;
+    position: absolute;
+    top: 79px;
+}
+#foot>section:nth-child(2)>ul:nth-child(1)::before{
+    content: "";
+    border: 1px solid #333333;
+    width: 200px;
+    position: absolute;
+    top: 79px;
+}
+#foot>section:nth-child(3)>ul:nth-child(1)::before{
+    content: "";
+    border: 1px solid #333333;
+    width: 200px;
+    position: absolute;
+    top: 79px;
+}
+#foot>section:nth-child(4)>ul:nth-child(1)::before{
+    content: "";
+    border: 1px solid #333333;
+    width: 200px;
+    position: absolute;
+    top: 79px;
+}
+
+#copy{
+    height: 50px;
+    padding-top: 8px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+#copy>p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
